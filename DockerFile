@@ -2,8 +2,8 @@ FROM ubuntu:latest
 MAINTAINER Bryan Wong "bryanwong7788@gmail.com"
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
-COPY . /__init__
-WORKDIR /__init__
+COPY . /run
+WORKDIR /run
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
-CMD ["__init__.py"]
+CMD ["run.py"]
