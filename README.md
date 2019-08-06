@@ -15,11 +15,14 @@
 12. If you get the above error, delete psycopg2 in requirements.txt then run pip3 install -r requirements.txt
 
 # Part 2 (For Windows)
+1. Download git and the git bash shell
 7. Go to settings
 8. Go to project interpreter and press the three dots on the top right and click add
 9. Click on create a new virtual environment
 10. Select python 3.7 for the Base interpreter and click ok
-11. In the Pycharm terminal pip install -r requirements.txt
+11. In the git bash shell cd to the project
+12. Run: source venv\Scripts\activate
+13. Run pip install -r requirements.txt
 
 # Steps
 1. Click the rectangle box to the left of the play button and select edit configurations
