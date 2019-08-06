@@ -21,7 +21,11 @@
 10. Select python 3.7 for the Base interpreter and click ok
 11. In the Pycharm terminal pip install -r requirements.txt
 
-# Steps 
-1. Click the play button in the top right of the Pycharm IDE
-2. Go to localhost:5000 to see if the web page works
-3. Congradulations you we're able to get the website
+# Steps
+1. Click the rectangle box to the left of the play button and select edit configurations
+2. Make your python interpreter the same as your project interpreter in settings
+1. In the python console in Pycharm run: from flaskblog import db
+2. Then run: db.create_all()
+2. Click the play button in the top right of the Pycharm IDE
+3. Go to localhost:5000 to see if the web page works
+4. Try to register a user and log in. If you get a green flash message after logging in, you have set up everything correctly.
