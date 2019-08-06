@@ -4,7 +4,7 @@
 3. Download the latest version of python
 4. Clone this repo into any directory that you want
 5. Open Pycharm and open flask-test folder
-6. Make sure that you are in the flaskblog directory. Set up project interpreter to the latest version of python in settings
+6. Set up project interpreter to the latest version of python in settings
 
 # Part 2 (For Mac/Linux)
 7. Do this in terminal: mac/linux run: pip3 install virtualenv
