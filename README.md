@@ -24,7 +24,7 @@
 12. Run: source venv\Scripts\activate
 13. Run pip install -r requirements.txt
 
-# Steps
+# Part 3
 1. Click the rectangle box to the left of the play button and select edit configurations
 2. Make your python interpreter the same as your project interpreter in settings
 1. In the python console in Pycharm run: from flaskblog import db
