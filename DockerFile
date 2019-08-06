@@ -1,9 +1,0 @@
-FROM ubuntu:latest
-MAINTAINER Bryan Wong "bryanwong7788@gmail.com"
-RUN apt-get update -y
-RUN apt-get install -y python-pip python-dev build-essential
-COPY . /run
-WORKDIR /run
-RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
-CMD ["run.py"]
