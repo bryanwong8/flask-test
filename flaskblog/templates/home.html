@@ -1,8 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
     <h1>Welcome to the home page</h1>
-    {% if current_user.is_authenticated %}
         <a href="{{ url_for('login') }}">Login</a>
         <a href="{{ url_for('register') }}">Register</a>
-    {% endif %}
 {% endblock %}
